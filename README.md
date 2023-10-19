@@ -122,8 +122,7 @@ setTimeout(() => {
 
 <br>
 
-[![Anar a Inici](img/arrow-up-in-a-circle.png)](#s21-exercicis-bàsics 'Anar a Inici')
-
+[![Ir arriba](img/arrow-up-in-a-circle.png)](#s21-exercicis-bàsics 'Ir a Inicio')
 
 <br>
 
