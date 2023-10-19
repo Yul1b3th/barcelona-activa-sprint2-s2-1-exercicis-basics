@@ -118,7 +118,11 @@ setTimeout(() => {
 }, 3000);
 ```
 
-[![Ir arriba](img/arrow-up-in-a-circle.png)](#s21-exercicis-bàsics 'Inicio')Inicio
+<br>
+
+[![Anar a Inici](img/arrow-up-in-a-circle.png)](#s21-exercicis-bàsics 'Anar a Inici')
+
+<br>
 
 ---
 
@@ -201,7 +205,11 @@ const parOImpar = ( arr ) => {
 parOImpar( arr );
 ```
 
-[![Ir arriba](img/arrow-up-in-a-circle.png)](#s21-exercicis-bàsics 'Inicio')Inicio
+<br>
+
+[![Anar a Inici](img/arrow-up-in-a-circle.png)](#s21-exercicis-bàsics 'Anar a Inici')
+
+<br>
 
 ---
 
@@ -277,7 +285,11 @@ function processarCadena( cadena, callback ) {
 processarCadena( 'hola', ( recibirCadena ) => { console.log( recibirCadena ); } );
 ```
 
-[![Ir arriba](img/arrow-up-in-a-circle.png)](#s21-exercicis-bàsics 'Inicio')Inicio
+<br>
+
+[![Anar a Inici](img/arrow-up-in-a-circle.png)](#s21-exercicis-bàsics 'Anar a Inici')
+
+<br>
 
 ---
 
@@ -369,7 +381,11 @@ const objeto3 = { ...objecte1, ...objecte2 };
 console.log( objeto3 );
 ```
 
-[![Ir arriba](img/arrow-up-in-a-circle.png)](#s21-exercicis-bàsics 'Inicio')Inicio
+<br>
+
+[![Anar a Inici](img/arrow-up-in-a-circle.png)](#s21-exercicis-bàsics 'Anar a Inici')
+
+<br>
 
 ---
 
@@ -465,7 +481,11 @@ const array = [11, 12, 13, 14];
 console.log( array.some( mayoresQue10Some ) );
 ```
 
-[![Ir arriba](img/arrow-up-in-a-circle.png)](#s21-exercicis-bàsics 'Inicio')Inicio
+<br>
+
+[![Anar a Inici](img/arrow-up-in-a-circle.png)](#s21-exercicis-bàsics 'Anar a Inici')
+
+<br>
 
 ---
 
@@ -538,7 +558,11 @@ for (let [index, nom] of noms.entries()) {
 }
 ```
 
-[![Ir arriba](img/arrow-up-in-a-circle.png)](#s21-exercicis-bàsics 'Inicio')Inicio
+<br>
+
+[![Anar a Inici](img/arrow-up-in-a-circle.png)](#s21-exercicis-bàsics 'Anar a Inici')
+
+<br>
 
 ---
 
