@@ -21,7 +21,7 @@
   * Callbacks amb arrays
   * Escriu una funció processarCadena que accepti dos paràmetres
 
-* [1.4: Rest & Spread operators](#bloc-14-rest--spread-operators 'Ir')
+* [1.4: Rest & Spread operators](#bloc-14-rest--spread-operators 'Anar')
   * Operador Spread en Arrays
   * Operador Rest en Funcions
   * Copiant objectes amb Spread
