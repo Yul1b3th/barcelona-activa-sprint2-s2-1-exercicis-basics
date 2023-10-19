@@ -1,5 +1,59 @@
 # S2.1. Exercicis Bàsics
 
+* [1.1: Arrow functions](#bloc-11-arrow-functions 'Ir')
+  * Conversió de funcions
+  * Funció de fletxa sense paràmetres
+  * Ús de 'this' en les funcions de fletxa
+  * Funció de fletxa dins d'un loop
+  * Funció de fletxa amb 'setTimeout'
+
+* [1.2: Operador ternari](#bloc-12-operador-ternari 'Ir')
+  * Operador ternari bàsic
+  * Ús amb operadors de comparació
+  * Ús enllaçat d'operadors ternaris
+  * Operador ternari amb funcions
+  * Operador ternari dins un bucle
+
+* [1.3: Callbacks](#bloc-13-callbacks)
+  * Callback bàsic
+  * Callbacks amb operacions matemàtiques
+  * Ús de callbacks en funcions asíncrones
+  * Callbacks amb arrays
+  * Escriu una funció processarCadena que accepti dos paràmetres
+
+* [1.4: Rest & Spread operators]
+  * Operador Spread en Arrays
+  * Operador Rest en Funcions
+  * Copiant objectes amb Spread
+  * Rest en Destructuring
+  * Spread en Funcions
+  * Fusionant Objectes amb Spread
+
+* 1.5: Array transformations
+  * Map
+  * Filter
+  * Find
+  * Reduce
+  * Combinar mètodes
+  * Every / Some
+
+* 1.6: Array loops
+  * forEach
+  * for-of
+  * filter
+  * for-in
+  * for-of amb index
+
+* [1.7: Promises & Async/Await](#bloc-17-promises--async--await 'Ir')
+  * Creació d'una Promesa
+  * Utilització d'una Promesa
+  * Promesa amb reject
+  * Ús de async/await
+  * Gestió d'errors amb async/await
+  * Promise.all
+
+---
+
 ## Bloc 1.1: Arrow functions
 
 ### ![nivel 1](img/estrella1.svg) Nivell 1
@@ -63,6 +117,8 @@ setTimeout(() => {
   console.log('¡Hola!');
 }, 3000);
 ```
+
+[![Ir arriba](img/arrow-up-in-a-circle.png)](#s21-exercicis-bàsics 'Inicio')Inicio
 
 ---
 
@@ -145,6 +201,8 @@ const parOImpar = ( arr ) => {
 parOImpar( arr );
 ```
 
+[![Ir arriba](img/arrow-up-in-a-circle.png)](#s21-exercicis-bàsics 'Inicio')Inicio
+
 ---
 
 ## Bloc 1.3: Callbacks
@@ -218,6 +276,8 @@ function processarCadena( cadena, callback ) {
 
 processarCadena( 'hola', ( recibirCadena ) => { console.log( recibirCadena ); } );
 ```
+
+[![Ir arriba](img/arrow-up-in-a-circle.png)](#s21-exercicis-bàsics 'Inicio')Inicio
 
 ---
 
@@ -308,6 +368,8 @@ const objecte2 = {
 const objeto3 = { ...objecte1, ...objecte2 };
 console.log( objeto3 );
 ```
+
+[![Ir arriba](img/arrow-up-in-a-circle.png)](#s21-exercicis-bàsics 'Inicio')Inicio
 
 ---
 
@@ -403,6 +465,8 @@ const array = [11, 12, 13, 14];
 console.log( array.some( mayoresQue10Some ) );
 ```
 
+[![Ir arriba](img/arrow-up-in-a-circle.png)](#s21-exercicis-bàsics 'Inicio')Inicio
+
 ---
 
 ## Bloc 1.6: Array loops
@@ -473,6 +537,8 @@ for (let [index, nom] of noms.entries()) {
     console.log(`Posició ${index}: ${nom}`);
 }
 ```
+
+[![Ir arriba](img/arrow-up-in-a-circle.png)](#s21-exercicis-bàsics 'Inicio')Inicio
 
 ---
 
