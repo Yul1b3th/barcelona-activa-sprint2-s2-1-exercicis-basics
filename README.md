@@ -1,20 +1,20 @@
 # S2.1. Exercicis Bàsics
 
-* [1.1: Arrow functions](#bloc-11-arrow-functions 'Ir')
+* [1.1: Arrow functions](#bloc-11-arrow-functions 'Anar')
   * Conversió de funcions
   * Funció de fletxa sense paràmetres
   * Ús de 'this' en les funcions de fletxa
   * Funció de fletxa dins d'un loop
   * Funció de fletxa amb 'setTimeout'
 
-* [1.2: Operador ternari](#bloc-12-operador-ternari 'Ir')
+* [1.2: Operador ternari](#bloc-12-operador-ternari 'Anar')
   * Operador ternari bàsic
   * Ús amb operadors de comparació
   * Ús enllaçat d'operadors ternaris
   * Operador ternari amb funcions
   * Operador ternari dins un bucle
 
-* [1.3: Callbacks](#bloc-13-callbacks 'Ir')
+* [1.3: Callbacks](#bloc-13-callbacks 'Anar')
   * Callback bàsic
   * Callbacks amb operacions matemàtiques
   * Ús de callbacks en funcions asíncrones
@@ -29,7 +29,7 @@
   * Spread en Funcions
   * Fusionant Objectes amb Spread
 
-* [1.5: Array transformations](#bloc-15-array-transformations 'Ir')
+* [1.5: Array transformations](#bloc-15-array-transformations 'Anar')
   * Map
   * Filter
   * Find
@@ -37,14 +37,14 @@
   * Combinar mètodes
   * Every / Some
 
-* [1.6: Array loops](#bloc-16-array-loops 'Ir')
+* [1.6: Array loops](#bloc-16-array-loops 'Anar')
   * forEach
   * for-of
   * filter
   * for-in
   * for-of amb index
 
-* [1.7: Promises & Async/Await](#bloc-17-promises--async--await 'Ir')
+* [1.7: Promises & Async/Await](#bloc-17-promises--async--await 'Anar')
   * Creació d'una Promesa
   * Utilització d'una Promesa
   * Promesa amb reject
