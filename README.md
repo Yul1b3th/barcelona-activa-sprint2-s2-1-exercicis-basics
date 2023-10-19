@@ -119,16 +119,11 @@ setTimeout(() => {
 ```
 
 <br>
-<<<<<<< HEAD
 
 [![Anar a Inici](img/arrow-up-in-a-circle.png)](#s21-exercicis-bàsics 'Anar a Inici')
 
 <br>
 
-=======
-[![Ir arriba](img/arrow-up-in-a-circle.png)](#s21-exercicis-bàsics 'Ir a Inicio')
-<br>
->>>>>>> 5755475264379f9f951d2b1e08710fb894544b69
 ---
 
 ## Bloc 1.2: Operador ternari
