@@ -14,14 +14,14 @@
   * Operador ternari amb funcions
   * Operador ternari dins un bucle
 
-* [1.3: Callbacks](#bloc-13-callbacks)
+* [1.3: Callbacks](#bloc-13-callbacks 'Ir')
   * Callback bàsic
   * Callbacks amb operacions matemàtiques
   * Ús de callbacks en funcions asíncrones
   * Callbacks amb arrays
   * Escriu una funció processarCadena que accepti dos paràmetres
 
-* [1.4: Rest & Spread operators]
+* [1.4: Rest & Spread operators](#bloc-14-rest--spread-operators 'Ir')
   * Operador Spread en Arrays
   * Operador Rest en Funcions
   * Copiant objectes amb Spread
@@ -29,7 +29,7 @@
   * Spread en Funcions
   * Fusionant Objectes amb Spread
 
-* 1.5: Array transformations
+* [1.5: Array transformations](#bloc-15-array-transformations 'Ir')
   * Map
   * Filter
   * Find
@@ -37,7 +37,7 @@
   * Combinar mètodes
   * Every / Some
 
-* 1.6: Array loops
+* [1.6: Array loops](#bloc-16-array-loops 'Ir')
   * forEach
   * for-of
   * filter
@@ -118,9 +118,11 @@ setTimeout(() => {
 }, 3000);
 ```
 
+
+
 <br>
 
-[![Anar a Inici](img/arrow-up-in-a-circle.png)](#s21-exercicis-bàsics 'Anar a Inici')
+[![Ir arriba](img/arrow-up-in-a-circle.png)](#s21-exercicis-bàsics 'Ir a Inicio')
 
 <br>
 
