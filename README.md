@@ -54,6 +54,8 @@
 
 ---
 
+# S2.1. Exercicis Bàsics
+
 ## Bloc 1.1: Arrow functions
 
 ### ![nivel 1](img/estrella1.svg) Nivell 1
@@ -117,7 +119,6 @@ setTimeout(() => {
   console.log('¡Hola!');
 }, 3000);
 ```
-
 
 <br>
 
@@ -299,7 +300,7 @@ processarCadena( 'hola', ( recibirCadena ) => { console.log( recibirCadena ); } 
 ### ![Nivell 1](img/estrella1.svg) Nivell 1
 
 ### Exercici 1
-**Operador Spread en Arrays:** Crea dues arrays, array1 i array2. Utilitza l'operador spread per a crear una tercera array que contingui tots els elements de array1 i array2.##
+**Operador Spread en Arrays:** Crea dues arrays, array1 i array2. Utilitza l'operador spread per a crear una tercera array que contingui tots els elements de array1 i array2.
 
 ```js
 const arr1 = [1, 2, 3];
@@ -308,63 +309,20 @@ const arr3 = [...arr1, ...arr2];
 console.log( arr3 );
 ```
 
-### Exercici 2
+#### Exercici 2
 
-**Operador Rest en Funcions:** Crea una funció 'suma' que utilitzi l'operador rest per a acceptar un nombre indeterminat d'arguments i retornar la seva suma.
+**Copiant Arrays amb Spread:** Crea un Array 'array1'. Després crea un segon Array, 'array2', que sigui una còpia de 'array1' utilitzant l'operador spread. Afegeix un nou element en el 'array2' i comprova que 'array1' no ha canviat.
 
 ```js
-const suma = ( ...numeros ) => numeros.reduce( ( resultado, num ) => resultado + num, 0 );
-
-suma( 1, 2, 8 );
+const array1 = [1, 2, 3];
+const array2 = [...array1];
+array2.push('Yuli');
+console.log( array1 );
+console.log( array2 );
 ```
-
-### ![Nivell 2](img/estrella2.svg) Nivell 2
 
 #### Exercici 3
-
-**Copiant objectes amb Spread:** Crea un objecte 'objecte1'. Després crea un segon objecte, 'objecte2', que sigui una còpia de 'objecte1' utilitzant l'operador spread. Canvia una propietat de 'objecte2' i comprova que 'objecte1' no ha canviat.
-
-```js
-const objecte1 = {
- nom: 'Ana',
- sexo: 'Femenino',
- estadoCivil: 'Soltera'
-};
-
-const objecte2 = { ...objecte1 };
-console.log( objecte1 );
-objecte2.nom = 'Luis';
-objecte2.edad = 32;
-console.log( objecte2 );
-```
-
-#### Exercici 4
-
-**Rest en Destructuring:** Crea una array amb diversos elements. Utilitza destructuring i l'operador rest per a assignar els primers dos elements a variables, i després assignar la resta dels elements a una tercera variable.
-```js
-const arr = [4, 5, 6, 7, 8, 9, 12];
-let [var1, var2, ...var3] = arr;
-console.log( var1 );
-console.log( var2 );
-console.log( var3 );
-```
-
-### ![Nivell 3](img/estrella3.svg) Nivell 3
-
-#### Exercici 5
-
-**Spread en Funcions:** Crea una funció que accepti tres arguments. Després, crea una array amb tres elements i crida la funció utilitzant l'operador spread amb aquesta array.
-
-```js
-const arr = ['a', 'b', 'c']
-function ejercicio5( arg1, arg2, arg3 ) {
- console.log( { arg1 } );
- console.log( { arg2 } );
- console.log( { arg3 } );
-```
-
-#### Exercici 6
-**Fusionant Objectes amb Spread:** Crea dos objectes amb propietats diferents.Utilitza l'operador spread per a fusionar aquests dos objectes en un de nou.
+**Operador Spread en objectes:** Crea dos objectes amb propietats diferents.Utilitza l'operador spread per a fusionar aquests dos objectes en un de nou.
 
 ```js
 const objecte1 = {
@@ -380,6 +338,133 @@ const objecte2 = {
 
 const objeto3 = { ...objecte1, ...objecte2 };
 console.log( objeto3 );
+```
+
+#### Exercici 4
+
+**Copiant objectes amb Spread:** Crea un objecte 'objecte1'. Després crea un segon objecte, 'objecte2', que sigui una còpia de 'objecte1' utilitzant l'operador spread. Canvia una propietat de 'objecte2' i comprova que 'objecte1' no ha canviat.
+
+```js
+const objecte1 = {
+ nom: 'Ana',
+ sexo: 'Femenino',
+ estadoCivil: 'Soltera'
+};
+
+const objecte2 = { ...objecte1 };
+objecte2.nom = 'Nuria';
+objecte2.edad = 32;
+console.log( objecte1 );
+console.log( objecte2 );
+```
+
+### ![Nivell 2](img/estrella2.svg) Nivell 2
+
+#### Exercici 5
+
+**Spread en Funcions:** Crea una funció que accepti tres arguments. Després, crea una array amb tres elements i crida la funció utilitzant l'operador spread amb aquesta array.
+
+```js
+const arr = ['a', 'b', 'c'];
+function ejercicio5( arg1, arg2, arg3 ) {
+ console.log( { arg1 } );
+ console.log( { arg2 } );
+ console.log( { arg3 } );
+}(arr);
+```
+
+### Exercici 7
+**Paràmetre Rest:**
+```js
+const registrarUsuario = ( nombre, correo, ...datosAdicionales ) => {
+ console.log( nombre, correo, datosAdicionales );
+}
+
+registrarUsuario( 'Yuli', 'yuli@correo.com', 'femenino', 'España' );
+```
+
+### Exercici 8
+
+**Paràmetre Rest en Funcions:** Crea una funció 'suma' que utilitzi l'operador rest per a acceptar un nombre indeterminat d'arguments i retornar la seva suma.
+
+```js
+const suma = ( ...numeros ) => numeros.reduce( ( resultado, num ) => resultado + num, 0 );
+
+suma( 1, 2, 8 );
+```
+
+### ![Nivell 3](img/estrella3.svg) Nivell 3
+
+#### Exercici 9
+**Destructuring en Array**
+
+```js
+const frutas = ['Manzana', 'Pera', 'Limon'];
+
+const [primeraFruta, segundaFruta, terceraFruta] = frutas;
+
+console.log( primeraFruta );
+console.log( segundaFruta );
+console.log( terceraFruta );
+```
+
+
+#### Exercici 10
+**Destructuring en Object**
+
+```js
+const persona = {
+ nombre: 'Luis',
+ sexo: 'Masculino',
+ pais: 'España',
+}
+
+const { nombre, pais } = persona;
+console.log( nombre, pais );
+```
+
+#### Exercici 11
+**Paràmetre Rest en Destructuring:** Crea una array amb diversos elements. Utilitza destructuring i l'operador rest per a assignar els primers dos elements a variables, i després assignar la resta dels elements a una tercera variable.
+
+```js
+const arr = [4, 5, 6, 7, 8, 9, 12];
+const [var1, var2, ...var3] = arr;
+console.log( var1 );
+console.log( var2 );
+console.log( var3 );
+```
+
+#### Exercici 12
+**Destructuring en Funcions**
+
+```js
+const persona = {
+ nombre: 'Ana',
+ sexo: 'Femenino',
+ pais: 'España',
+}
+
+const mostrarPais = ( nombre, pais ) => {
+ console.log( `${nombre} es de ${pais}` );
+}
+
+mostrarPais( persona.nombre, persona.pais )
+```
+
+**_Otro Forma_**
+```js
+const persona = {
+ nombre: 'Ana',
+ sexo: 'Femenino',
+ pais: 'España',
+}
+
+const mostrarPais = ( { nombre, pais } ) => {
+ console.log( `${nombre} es de ${pais}` );
+}
+
+mostrarPais( persona )
+
 ```
 
 <br>
@@ -441,7 +526,7 @@ console.log( sumWithInitial );
 
 #### Exercici 5
 
-**Combinar mètodes:** Donat un array "[ 1, 3, 7, 10 ,15, 17, 11, 5, 8, 12, 9 ]", crea una funció en una sola línia que faci el següent:
+Donat un array "[ 1, 3, 7, 10 ,15, 17, 11, 5, 8, 12, 9 ]", crea una funció en una sola línia que faci el següent:
 
 * Filtra els nombres majors o iguals a 10.
 * Multiplica cada nombre filtrat per 2.
@@ -558,12 +643,6 @@ for (let [index, nom] of noms.entries()) {
     console.log(`Posició ${index}: ${nom}`);
 }
 ```
-
-<br>
-
-[![Anar a Inici](img/arrow-up-in-a-circle.png)](#s21-exercicis-bàsics 'Anar a Inici')
-
-<br>
 
 ---
 
